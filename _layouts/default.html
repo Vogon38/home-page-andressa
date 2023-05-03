@@ -29,8 +29,8 @@
           <div class="downloads">
             <span>Redes sociais</span>
             <ul>
-              <li><a href="{{ site.instagram }}" class="button">Instagram</a></li>
-              <li><a href="{{ site.facebook }}" class="button">Facebook</a></li>
+              <li><a href="{{ site.instagram }}" class="button" target="_blank">Instagram</a></li>
+              <li><a href="{{ site.facebook }}" class="button" target="_blank">Facebook</a></li>
             </ul>
           </div>
       </div><!-- end banner -->
@@ -40,12 +40,17 @@
       <nav>
         <ul></ul>
       </nav>
-      <section>
-        {{ content }}
-
+      <section class="button-section">
+        <a href={{ site.personalidade }} target="_blank" id="survey" class="button">
+          Personalidade
+        </a>
+        <a href= {{ site.estilo }} target="_blank" id="survey" class="button">
+          Estilo
+        </a>
       </section>
-      <footer>
-        <p><small>Copyright ©️ 2023.</a></small></p>
+            
+      <footer>          
+        <p><small>© 2023 Andressa Sevegnani. Todos os direitos reservados.</a></small></p>
       </footer>
     </div>
   </body>
